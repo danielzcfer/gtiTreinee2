@@ -308,8 +308,8 @@ h3.titulo{
 /* formulario */
 .formulario{
     background: url('imagens/mundo.jpg') no-repeat center center;
-    background-size: 100% 90%;
-    height: 80vh;
+    background-size: cover;
+    background-position-y: top;
     padding: 80px 4%;
     display: flex;
     flex-direction: column;
@@ -375,6 +375,22 @@ form textarea{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+#Troca{
+    display: none;
+}
+.lista > li > a{
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    background-color: #888;
+    padding: .5rem 5rem;
+    margin: .5rem;
+    border-radius: 1rem;
+}
+.lista > li > a:hover{
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0);
+    transform: scale(1.05);
 }
 /* roda pe */
 .roda-pe{

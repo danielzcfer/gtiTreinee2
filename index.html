@@ -233,9 +233,14 @@
                     <input type="text" name="" id="" placeholder="Seu email:" required>
                     <input type="text" name="" id="" placeholder="Seu celular:" required>
                     <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
-                    <span class="material-symbols-outlined Menu">
-                        menu
-                    </span>
+                    <span class="material-symbols-outlined Menu" onclick="clickMenu()">menu</span>
+                    <div id="Troca">
+                        <ul class="lista">
+                            <li><a href="">Jogos</a></li>
+                            <li><a href="">Consutoria</a></li>
+                            <li><a href="">Portfolio</a></li>
+                        </ul>
+                    </div>
                     <div class="btn"><input type="submit" value="ENVIAR"></div>
                    </form>
                 
@@ -269,5 +274,14 @@
             </div>
         </div>
     </footer>
+    <script>
+        function clickMenu(){
+            if(Troca.style.display == 'block'){
+                Troca.style.display = 'none'
+            }else{
+                Troca.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
