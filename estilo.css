@@ -17,7 +17,7 @@
 }
 #logo{
     font-family: logo;
-    color:white;
+    color:orange;
     text-decoration: none;
     transition: 0.3s;
     font-size: 24px;
@@ -25,7 +25,9 @@
     letter-spacing: 4px;
 }
 a {
-    color: white;
+    font-family: georgiaB;
+    src: url('fonte/georgiab.ttf');
+    color: orange;
     text-decoration: none;
     transition: 0.3s;
 }
@@ -43,8 +45,12 @@ html {
     scroll-behavior: smooth;
 }
 .barra{
+    background-color: white;
     text-decoration: none;
     transition: 0.3s;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 }
 nav{
     display: flex;
@@ -63,7 +69,6 @@ section.cabeca{
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 div.ba{
     display: flex;
