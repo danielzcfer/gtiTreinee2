@@ -3,12 +3,12 @@
     src: url('fonte/Crack-rwMK.ttf');
 }
 @font-face {
-    font-family: poppinsB;
-    src: url('fonte/Poppins-Bold.ttf');
+    font-family: georgiaB;
+    src: url('fonte/georgiab.ttf');
 }
 @font-face {
-    font-family: poppinsR;
-    src: url('fonte/Poppins-Regular.ttf');
+    font-family: georgiaR;
+    src: url('fonte/georgia.ttf');
 }
 *{
     margin: 0;
