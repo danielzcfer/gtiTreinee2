@@ -1,0 +1,459 @@
+@font-face {
+    font-family: logo;
+    src: url('fonte/Crack-rwMK.ttf');
+}
+@font-face {
+    font-family: poppinsB;
+    src: url('fonte/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: poppinsR;
+    src: url('fonte/Poppins-Regular.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#logo{
+    font-family: logo;
+    color:white;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    opacity: 0.7;
+}
+.btn-nav{
+    transition: 0.2s;
+}
+.btn-nav:hover{
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0);
+    transform: scale(1.05);
+}
+html {
+    scroll-behavior: smooth;
+}
+.barra{
+    text-decoration: none;
+    transition: 0.3s;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+}
+/* banner */
+section.cabeca{
+    background: url('imagens/des.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+.banner{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+div.ba{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.ba h2{
+    font-size: 2em;
+    font-family: poppinsB;
+}
+.banner h1{
+    font-size: 3em;
+    font-family: poppinsB;
+}
+.banner h1 span{
+    color: blue;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+    font-family: logo;
+    color: white;
+}
+/* servicos */
+h2.titulo{
+    color: black;
+    font-size: 38px;
+    text-align: center;
+    
+    font-family: poppinsB;
+}
+header.rolagem{
+    background-color: rgb(233, 118, 24);
+    padding: 20px 4%;
+}
+header.rolagem a{
+    color: white;
+
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.especialidades{
+    padding: 100px 4%;
+
+}
+.especialidades-box{
+    color: black;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.especialidades-box i{
+    font-size: 70px;
+    color: orange;
+}
+.especialidades-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+    font-family: poppinsB;
+}
+.especialidades-box p{
+    display: flex;
+    font-size: 17px;
+    font-family: poppinsR;
+}
+/* portifolio */
+.portifolio{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-sub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 4%;
+}
+.sub-titulo{
+    font-family: poppinsR;
+    font-size: 15px;
+}
+.leo{
+   display: flex;
+   flex-direction: row;
+   gap: 30px;
+   justify-content: center;
+   width: 100%;
+   padding: 10px ;
+}
+.img-port{
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+    background-size: cover;
+    background-position: 50% 0%;
+    border-radius: 10%;
+    transition: 0.2s;
+
+}
+.img-port:hover{
+    box-shadow: 0px 0px 8px white;
+    transform: scale(1.05);
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.116);
+    
+}
+p{
+    font-family: poppinsB;
+}
+/* sobre */
+.hist{
+   position: relative;
+   max-width: 1200px;
+   margin: 100px auto;
+}
+
+.hist::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 4px;
+    top: 10%;
+    margin-left: -3px;
+    height: 80%;
+    background: gray;
+    z-index: -10;
+}
+.cont{
+    padding: 0px 0px;
+    position: relative;
+    width: 50%;
+
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+}
+.img-red1{
+    left: 6.5%;
+}
+.img-red2{
+    left: 43%;
+}
+.img-red2 img{
+    left: -20px;
+}
+
+
+h3.titulo{
+    color: black;
+    text-align: center;
+    
+    font-family: poppinsB;
+}
+.img-sobre{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    border: 4px solid gray;
+}
+/* Time */
+.time{
+    background-color: #c5c5c52f;
+    padding: 80px 4%;
+}
+.equipe{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.func{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 500px;
+    
+}
+
+.foto{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+.func i{
+    color: orange;
+    font-size: 35px;
+    margin-right: 10px
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px
+   
+}
+/* parcerias */
+.parceria{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 80px 4%;
+
+}
+.empresas-par{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    width: 1000px;
+    height: 5px;
+    gap: 5px;
+    align-self: center;
+}
+.empresa{
+    width: 200px;
+    height: 100px;
+    align-self: center;
+}
+/* formulario */
+.formulario{
+    background: url('imagens/mundo.jpg') no-repeat center center;
+    background-size: 100% 90%;
+    height: 80vh;
+    padding: 80px 4%;
+    display: flex;
+    flex-direction: column;
+}
+section.formulario .titulo-sub h2, section.formulario .titulo-sub p{
+    color: white;
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+form input, form textarea, section.banner input{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.658);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+    font-family: poppinsR;
+
+}
+form textarea{
+    resize: none;
+    max-width: 500px;
+}
+.btn{
+    margin-top: 20px;
+    text-align: center;
+}
+.btn input, section.banner input{
+    width: 150px;
+    background-color: white;
+    color:black;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+.btn input:hover{
+    box-shadow: 0px 0px 8px white;
+    transform: scale(1.05);
+}
+/* roda pe */
+.roda-pe{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding: 20px 4%;
+}
+.redes i{
+    color: orange;
+    font-size: 35px;
+    margin-right: 10px;
+}
+.priva{
+    display:flex;
+    flex-direction: row;
+    gap: 9px;
+}
+
+@media screen and (max-width: 1020px){
+    /* cabeca */
+    .nav-list{
+        display: none
+    }
+    .ba h1{
+        justify-self: center;
+        font-size: 20px;
+    }
+    .ba h2{
+        justify-self: center;
+        font-size: 17px;
+    }
+    /*servicos*/
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+    /* porifolio */
+    .leo{
+        display: flex;
+        flex-direction: column;
+    }
+    /* sobre */
+    .hist::after{
+        left: 50px;
+    }
+    .img-sobre{
+        width: 80px;
+        height: 80px;
+    }
+    .img-red2{
+        left: 5px;
+    }
+    .img-red1 img{
+        left: 5px;
+    }
+    .cont{
+        width: 100%;
+    }
+    .img-red1{
+        display: flex;
+        flex-direction: row-reverse;
+        left: 5px;
+    }
+    .hist{
+        margin: 24px;
+    }
+    /* time */
+    .equipe{
+        display: flex;
+        flex-direction: column;
+    }
+   .func{
+    height: 400px;
+    }
+    /*parcerias */
+    .empresa{
+        width: 70px;
+        height: 70px;
+    }
+    .empresas-par{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+        gap: 10px;
+    }
+    .parceria{
+        padding: 30px;
+    }
+    /* formulario */
+    form input, form textarea{
+        width: 340px;
+    }
+    /* footer */
+    .roda-pe{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
+    
