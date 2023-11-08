@@ -360,7 +360,7 @@ form textarea{
 }
 .Menu{
     background-color: white;
-    padding: 1.5rem 16rem;
+    padding: 1.5rem 50%;
     display: block;
     cursor: pointer;
     border-radius: 1rem;
