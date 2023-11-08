@@ -358,6 +358,24 @@ form textarea{
     box-shadow: 0px 0px 8px white;
     transform: scale(1.05);
 }
+.Menu{
+    background-color: white;
+    padding: 1.5rem 16rem;
+    display: block;
+    cursor: pointer;
+    border-radius: 1rem;
+    text-align: center;
+}
+.Menu:hover{
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0);
+    transform: scale(1.05);
+}
+.formAligh{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 /* roda pe */
 .roda-pe{
     display: flex;
